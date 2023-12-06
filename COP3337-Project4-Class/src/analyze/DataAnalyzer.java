@@ -1,11 +1,10 @@
 package analyze;
 
+import app.Controller;
 import app.ExecutionInfo;
 
-import java.sql.SQLOutput;
 import java.util.ArrayList;
 
-import static java.awt.SystemColor.info;
 
 public class DataAnalyzer {
     
@@ -42,7 +41,10 @@ public class DataAnalyzer {
         System.out.printf("Index %-4d FibValue: %-10d Calls: %-10.0f Exponent: %-10.3f\n",
                 fibIndex, fibValue, totalCalls, exponent);
 
+
+
         }
+        Controller.infoHeader();
     }
-    
+
 }// end class

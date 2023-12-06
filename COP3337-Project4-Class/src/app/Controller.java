@@ -32,8 +32,29 @@ import java.util.TreeMap;
 
 public class Controller {
 
+    public static void infoHeader(){
+        System.out.println("");
+        System.out.println("");
+        System.out.println("=============================================================================");
+        System.out.println(" \t\tStudent Info Header");
+        System.out.println("=============================================================================");
+        System.out.println(" PROGRAMMER: \tRaidel Almeida");
+        System.out.println(" PANTHER ID: \t3932877");
+        System.out.println(" CLASS: \t\tCOP3337 Programming II");
+        System.out.println(" SECTION: \t\tRVBB 1238");
+        System.out.println(" SEMESTER: \t\tFall 2023");
+        System.out.println(" CLASSTIME: \tRemote 7PM Tuesday's");
+        System.out.println(" Project: \t\tProject 4");
+        System.out.println(" ");
+        System.out.println(" CERTIFICATION: I understand FIU’s academic policies, \n\t\t\t\tand I certify that this work is my own");
+        System.out.println("\t\t\t\tand that none of it is the work of any other person.");
+        System.out.println("=============================================================================");
+        System.out.println("");
+
+    }
     
     public static void main(String[] args) {
+        infoHeader();
         
         // create a DataAnalyzer object named dataAnalyzer
         // YOUR CODE HERE
